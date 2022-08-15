@@ -7,35 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FBC57E4528A56BD6002D6E3F /* App01_MiPerfilApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC57E4428A56BD6002D6E3F /* App01_MiPerfilApp.swift */; };
-		FBC57E4728A56BD6002D6E3F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC57E4628A56BD6002D6E3F /* HomeView.swift */; };
-		FBC57E4928A56BD8002D6E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC57E4828A56BD8002D6E3F /* Assets.xcassets */; };
-		FBC57E4C28A56BD8002D6E3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC57E4B28A56BD8002D6E3F /* Preview Assets.xcassets */; };
-		FBC57E5628A577BA002D6E3F /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBC57E5328A577B9002D6E3F /* Roboto-Italic.ttf */; };
-		FBC57E5728A577BA002D6E3F /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBC57E5428A577B9002D6E3F /* Roboto-Bold.ttf */; };
-		FBC57E5828A577BA002D6E3F /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBC57E5528A577BA002D6E3F /* Roboto-Regular.ttf */; };
-		FBC57E5D28A587BE002D6E3F /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC57E5C28A587BE002D6E3F /* Fonts.swift */; };
-		FBC57E5F28A58A72002D6E3F /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC57E5E28A58A72002D6E3F /* TextView.swift */; };
-		FBC57E6128A58DFD002D6E3F /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC57E6028A58DFD002D6E3F /* DataView.swift */; };
+		3AFBD8F828A56BD600E8661D /* App01_MiPerfilApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFBD8F728A56BD600E8661D /* App01_MiPerfilApp.swift */; };
+		3AFBD8FA28A56BD600E8661D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFBD8F928A56BD600E8661D /* HomeView.swift */; };
+		3AFBD8FC28A56BD700E8661D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFBD8FB28A56BD700E8661D /* Assets.xcassets */; };
+		3AFBD8FF28A56BD700E8661D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFBD8FE28A56BD700E8661D /* Preview Assets.xcassets */; };
+		3AFBD90928A577B800E8661D /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AFBD90628A577B800E8661D /* Roboto-Italic.ttf */; };
+		3AFBD90A28A577B800E8661D /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AFBD90728A577B800E8661D /* Roboto-Regular.ttf */; };
+		3AFBD90B28A577B800E8661D /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AFBD90828A577B800E8661D /* Roboto-Bold.ttf */; };
+		3AFBD90E28A5876D00E8661D /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFBD90D28A5876D00E8661D /* Fonts.swift */; };
+		3AFBD91028A58A4E00E8661D /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFBD90F28A58A4E00E8661D /* TextView.swift */; };
+		3AFBD91228A58D3200E8661D /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFBD91128A58D3200E8661D /* DataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FBC57E4128A56BD6002D6E3F /* App01-MiPerfil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App01-MiPerfil.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBC57E4428A56BD6002D6E3F /* App01_MiPerfilApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App01_MiPerfilApp.swift; sourceTree = "<group>"; };
-		FBC57E4628A56BD6002D6E3F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		FBC57E4828A56BD8002D6E3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FBC57E4B28A56BD8002D6E3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FBC57E5328A577B9002D6E3F /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
-		FBC57E5428A577B9002D6E3F /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
-		FBC57E5528A577BA002D6E3F /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
-		FBC57E5928A5782B002D6E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		FBC57E5C28A587BE002D6E3F /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
-		FBC57E5E28A58A72002D6E3F /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
-		FBC57E6028A58DFD002D6E3F /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
+		3AFBD8F428A56BD600E8661D /* App01-MiPerfil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App01-MiPerfil.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFBD8F728A56BD600E8661D /* App01_MiPerfilApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App01_MiPerfilApp.swift; sourceTree = "<group>"; };
+		3AFBD8F928A56BD600E8661D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3AFBD8FB28A56BD700E8661D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AFBD8FE28A56BD700E8661D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3AFBD90628A577B800E8661D /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		3AFBD90728A577B800E8661D /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		3AFBD90828A577B800E8661D /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		3AFBD90C28A5782F00E8661D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3AFBD90D28A5876D00E8661D /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		3AFBD90F28A58A4E00E8661D /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		3AFBD91128A58D3200E8661D /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FBC57E3E28A56BD6002D6E3F /* Frameworks */ = {
+		3AFBD8F128A56BD600E8661D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,52 +45,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FBC57E3828A56BD6002D6E3F = {
+		3AFBD8EB28A56BD600E8661D = {
 			isa = PBXGroup;
 			children = (
-				FBC57E4328A56BD6002D6E3F /* App01-MiPerfil */,
-				FBC57E4228A56BD6002D6E3F /* Products */,
+				3AFBD8F628A56BD600E8661D /* App01-MiPerfil */,
+				3AFBD8F528A56BD600E8661D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FBC57E4228A56BD6002D6E3F /* Products */ = {
+		3AFBD8F528A56BD600E8661D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FBC57E4128A56BD6002D6E3F /* App01-MiPerfil.app */,
+				3AFBD8F428A56BD600E8661D /* App01-MiPerfil.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FBC57E4328A56BD6002D6E3F /* App01-MiPerfil */ = {
+		3AFBD8F628A56BD600E8661D /* App01-MiPerfil */ = {
 			isa = PBXGroup;
 			children = (
-				FBC57E5928A5782B002D6E3F /* Info.plist */,
-				FBC57E5228A57747002D6E3F /* Fonts */,
-				FBC57E4428A56BD6002D6E3F /* App01_MiPerfilApp.swift */,
-				FBC57E4628A56BD6002D6E3F /* HomeView.swift */,
-				FBC57E5E28A58A72002D6E3F /* TextView.swift */,
-				FBC57E6028A58DFD002D6E3F /* DataView.swift */,
-				FBC57E4828A56BD8002D6E3F /* Assets.xcassets */,
-				FBC57E4A28A56BD8002D6E3F /* Preview Content */,
+				3AFBD90C28A5782F00E8661D /* Info.plist */,
+				3AFBD90528A5774C00E8661D /* Fonts */,
+				3AFBD8F728A56BD600E8661D /* App01_MiPerfilApp.swift */,
+				3AFBD8F928A56BD600E8661D /* HomeView.swift */,
+				3AFBD91128A58D3200E8661D /* DataView.swift */,
+				3AFBD90F28A58A4E00E8661D /* TextView.swift */,
+				3AFBD8FB28A56BD700E8661D /* Assets.xcassets */,
+				3AFBD8FD28A56BD700E8661D /* Preview Content */,
 			);
 			path = "App01-MiPerfil";
 			sourceTree = "<group>";
 		};
-		FBC57E4A28A56BD8002D6E3F /* Preview Content */ = {
+		3AFBD8FD28A56BD700E8661D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				FBC57E4B28A56BD8002D6E3F /* Preview Assets.xcassets */,
+				3AFBD8FE28A56BD700E8661D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		FBC57E5228A57747002D6E3F /* Fonts */ = {
+		3AFBD90528A5774C00E8661D /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				FBC57E5428A577B9002D6E3F /* Roboto-Bold.ttf */,
-				FBC57E5328A577B9002D6E3F /* Roboto-Italic.ttf */,
-				FBC57E5528A577BA002D6E3F /* Roboto-Regular.ttf */,
-				FBC57E5C28A587BE002D6E3F /* Fonts.swift */,
+				3AFBD90828A577B800E8661D /* Roboto-Bold.ttf */,
+				3AFBD90628A577B800E8661D /* Roboto-Italic.ttf */,
+				3AFBD90728A577B800E8661D /* Roboto-Regular.ttf */,
+				3AFBD90D28A5876D00E8661D /* Fonts.swift */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -98,13 +98,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FBC57E4028A56BD6002D6E3F /* App01-MiPerfil */ = {
+		3AFBD8F328A56BD600E8661D /* App01-MiPerfil */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBC57E4F28A56BD8002D6E3F /* Build configuration list for PBXNativeTarget "App01-MiPerfil" */;
+			buildConfigurationList = 3AFBD90228A56BD700E8661D /* Build configuration list for PBXNativeTarget "App01-MiPerfil" */;
 			buildPhases = (
-				FBC57E3D28A56BD6002D6E3F /* Sources */,
-				FBC57E3E28A56BD6002D6E3F /* Frameworks */,
-				FBC57E3F28A56BD6002D6E3F /* Resources */,
+				3AFBD8F028A56BD600E8661D /* Sources */,
+				3AFBD8F128A56BD600E8661D /* Frameworks */,
+				3AFBD8F228A56BD600E8661D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -112,25 +112,25 @@
 			);
 			name = "App01-MiPerfil";
 			productName = "App01-MiPerfil";
-			productReference = FBC57E4128A56BD6002D6E3F /* App01-MiPerfil.app */;
+			productReference = 3AFBD8F428A56BD600E8661D /* App01-MiPerfil.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FBC57E3928A56BD6002D6E3F /* Project object */ = {
+		3AFBD8EC28A56BD600E8661D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					FBC57E4028A56BD6002D6E3F = {
+					3AFBD8F328A56BD600E8661D = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = FBC57E3C28A56BD6002D6E3F /* Build configuration list for PBXProject "App01-MiPerfil" */;
+			buildConfigurationList = 3AFBD8EF28A56BD600E8661D /* Build configuration list for PBXProject "App01-MiPerfil" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -138,48 +138,48 @@
 				en,
 				Base,
 			);
-			mainGroup = FBC57E3828A56BD6002D6E3F;
-			productRefGroup = FBC57E4228A56BD6002D6E3F /* Products */;
+			mainGroup = 3AFBD8EB28A56BD600E8661D;
+			productRefGroup = 3AFBD8F528A56BD600E8661D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FBC57E4028A56BD6002D6E3F /* App01-MiPerfil */,
+				3AFBD8F328A56BD600E8661D /* App01-MiPerfil */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FBC57E3F28A56BD6002D6E3F /* Resources */ = {
+		3AFBD8F228A56BD600E8661D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBC57E4C28A56BD8002D6E3F /* Preview Assets.xcassets in Resources */,
-				FBC57E5628A577BA002D6E3F /* Roboto-Italic.ttf in Resources */,
-				FBC57E5828A577BA002D6E3F /* Roboto-Regular.ttf in Resources */,
-				FBC57E5728A577BA002D6E3F /* Roboto-Bold.ttf in Resources */,
-				FBC57E4928A56BD8002D6E3F /* Assets.xcassets in Resources */,
+				3AFBD8FF28A56BD700E8661D /* Preview Assets.xcassets in Resources */,
+				3AFBD90928A577B800E8661D /* Roboto-Italic.ttf in Resources */,
+				3AFBD90B28A577B800E8661D /* Roboto-Bold.ttf in Resources */,
+				3AFBD90A28A577B800E8661D /* Roboto-Regular.ttf in Resources */,
+				3AFBD8FC28A56BD700E8661D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FBC57E3D28A56BD6002D6E3F /* Sources */ = {
+		3AFBD8F028A56BD600E8661D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBC57E4728A56BD6002D6E3F /* HomeView.swift in Sources */,
-				FBC57E5F28A58A72002D6E3F /* TextView.swift in Sources */,
-				FBC57E6128A58DFD002D6E3F /* DataView.swift in Sources */,
-				FBC57E5D28A587BE002D6E3F /* Fonts.swift in Sources */,
-				FBC57E4528A56BD6002D6E3F /* App01_MiPerfilApp.swift in Sources */,
+				3AFBD8FA28A56BD600E8661D /* HomeView.swift in Sources */,
+				3AFBD91028A58A4E00E8661D /* TextView.swift in Sources */,
+				3AFBD91228A58D3200E8661D /* DataView.swift in Sources */,
+				3AFBD90E28A5876D00E8661D /* Fonts.swift in Sources */,
+				3AFBD8F828A56BD600E8661D /* App01_MiPerfilApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FBC57E4D28A56BD8002D6E3F /* Debug */ = {
+		3AFBD90028A56BD700E8661D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -239,7 +239,7 @@
 			};
 			name = Debug;
 		};
-		FBC57E4E28A56BD8002D6E3F /* Release */ = {
+		3AFBD90128A56BD700E8661D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -293,7 +293,7 @@
 			};
 			name = Release;
 		};
-		FBC57E5028A56BD8002D6E3F /* Debug */ = {
+		3AFBD90328A56BD700E8661D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -301,7 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"App01-MiPerfil/Preview Content\"";
-				DEVELOPMENT_TEAM = 948Q7245G4;
+				DEVELOPMENT_TEAM = J97L2A8AMM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "App01-MiPerfil/Info.plist";
@@ -315,7 +315,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "a00830710.App01-MiPerfil";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bugsracer.App01-MiPerfil";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -323,7 +323,7 @@
 			};
 			name = Debug;
 		};
-		FBC57E5128A56BD8002D6E3F /* Release */ = {
+		3AFBD90428A56BD700E8661D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -331,7 +331,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"App01-MiPerfil/Preview Content\"";
-				DEVELOPMENT_TEAM = 948Q7245G4;
+				DEVELOPMENT_TEAM = J97L2A8AMM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "App01-MiPerfil/Info.plist";
@@ -345,7 +345,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "a00830710.App01-MiPerfil";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bugsracer.App01-MiPerfil";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -356,25 +356,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FBC57E3C28A56BD6002D6E3F /* Build configuration list for PBXProject "App01-MiPerfil" */ = {
+		3AFBD8EF28A56BD600E8661D /* Build configuration list for PBXProject "App01-MiPerfil" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FBC57E4D28A56BD8002D6E3F /* Debug */,
-				FBC57E4E28A56BD8002D6E3F /* Release */,
+				3AFBD90028A56BD700E8661D /* Debug */,
+				3AFBD90128A56BD700E8661D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBC57E4F28A56BD8002D6E3F /* Build configuration list for PBXNativeTarget "App01-MiPerfil" */ = {
+		3AFBD90228A56BD700E8661D /* Build configuration list for PBXNativeTarget "App01-MiPerfil" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FBC57E5028A56BD8002D6E3F /* Debug */,
-				FBC57E5128A56BD8002D6E3F /* Release */,
+				3AFBD90328A56BD700E8661D /* Debug */,
+				3AFBD90428A56BD700E8661D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FBC57E3928A56BD6002D6E3F /* Project object */;
+	rootObject = 3AFBD8EC28A56BD600E8661D /* Project object */;
 }

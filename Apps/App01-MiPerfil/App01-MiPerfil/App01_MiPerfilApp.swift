@@ -2,8 +2,6 @@
 //  App01_MiPerfilApp.swift
 //  App01-MiPerfil
 //
-//  Created by Alumno on 11/08/22.
-//
 
 import SwiftUI
 

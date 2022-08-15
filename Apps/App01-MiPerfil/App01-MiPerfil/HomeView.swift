@@ -2,7 +2,6 @@
 //  ContentView.swift
 //  App01-MiPerfil
 //
-//  Created by Alumno on 11/08/22.
 //
 
 import SwiftUI
@@ -10,92 +9,89 @@ import SwiftUI
 struct HomeView: View {
     
     @State var name: String = "Musel Tabares"
-    @State var program:String = "ITC"
-    @State var age:String = "20"
-    @State var birthdate:String = "5"
-    @State var city:String = "Tijuana"
+    @State var program: String = "ITC"
+    @State var age: Double = 20
+    @State var birthdate: Date = Date()
+    @State var city: String = "Tijuana"
+    @State var showView: Bool = false
     
-    
-    @State var showview:Bool = false
-    
+    var dateFormat: DateFormatter {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy/MMM/dd"
+        return formatter
+    }
     
     var body: some View {
-        GeometryReader{geo in
-            
-            ZStack{
-                VStack(spacing: 0){
-                    ZStack{
+        GeometryReader { geo in
+            ZStack {
+                VStack(spacing: 0) {
+                    ZStack {
                         Color.blue
-                        VStack{
+                        VStack {
                             Text(name)
                                 .foregroundColor(.white)
-                                 .font(.custom("Roboto-Bold", size: 40))
+                                .font(.custom("Roboto-Bold", size: 40))
                         }
-                        
                     }
                     .frame(height: geo.size.height/3)
-                    VStack{ Color.red}
-                        .frame(height: geo.size.height/3*2)
-                    
+                    VStack {
+                        Color.red
+                    }
+                    .frame(height: (geo.size.height / 3) * 2)
                 }
-                
                 ZStack {
-                    VStack{
-                        //Circle()
-                          //  .frame(width: 200)
-                            //.padding(.bottom,geo.size.height/3)
+                    VStack {
+                        Circle()
+                            .padding(.bottom, geo.size.height/3)
+                            .foregroundColor(.white)
+                            .frame(width: 200)
                     }
                     VStack {
-                        Image("image1")
+                        Image("appstore")
                             .resizable()
                             .scaledToFit()
                             .frame(width: 200)
-                            .clipShape( Circle())
+                            .clipShape(Circle())
                             .overlay(
                                 Circle()
                                     .stroke(lineWidth: 6)
                                     .foregroundColor(.white)
                             )
-                        .padding(.bottom,geo.size.height/3)
+                            .padding(.bottom, geo.size.height/3)
                     }
-                    VStack{
-                        VStack{
-                            TextView(label: "carrera", value: program)
-                            TextView(label: "edad", value: age)
-                            TextView(label: "nacimiento", value: birthdate)
-                            TextView(label: "ciudad", value: city)
-                            
-                        
-                        //  \(age)
+                    VStack {
+                        VStack {
+                            TextView(label: "Carrera:", value: program)
+                            TextView(label: "Edad:", value: String(format: "%0.f", age))
+                            TextView(label: "Fecha Nacimiento", value: "\(dateFormat.string(from: birthdate))")
+                            TextView(label: "Ciudad:", value: city)
+                        }
                         Spacer()
                         Button {
-                            name = "Musel"
-                            
+                            showView.toggle()
+                        } label: {
+                            Text("Actualiza Datos")
+                                .foregroundColor(.white)
+                                .padding()
+                                .background(
+                                    .blue
+                                )
+                                .cornerRadius(20)
+                                
                         }
-                        label: {Text("Cambia Nombre")}
-                            .foregroundColor(.white)
-                            .padding()
-                            .background(.cyan)
-                            .cornerRadius(20)
-                        
-                        
-                        
+
                     }
+                    .modifier(TextModifier())
+                    .padding(.top, geo.size.height/3 + 100)
+                    .padding(.bottom, 60)
                     
                 }
-                    //.modifier(TextModifier)
-                .padding(.top,geo.size.height/3)
-                .padding(.bottom,60)
+            }
+            .fullScreenCover(isPresented: $showView) {
+                DataView(program: $program, age: $age, birthdate: $birthdate, city: $city)
             }
         }
-            
-            
-            //.sheet(.isPresented: $showview){
-            //dataview()
-        }
         .edgesIgnoringSafeArea(.all)
-        
-    }
     }
 }
 
